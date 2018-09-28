@@ -16,3 +16,7 @@ function addNewElementAsLi() {
   li.innerText = retrieveEmployeeInformation();
   target.appendChild(li);
 }
+
+function addNewLiOnClick() {
+  
+}
