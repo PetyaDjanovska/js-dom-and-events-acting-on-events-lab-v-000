@@ -26,6 +26,6 @@ function addNewElementAsLi() {
  function clearEmployeeListOnLinkClick() {
     let link = document.querySelector('a');
     link.addEventListener('click', function(event) {
-      document.querySelector('.employee-list').value = '';
+      document.querySelector('.employee-list').innerHTML = '';
     });
  }
