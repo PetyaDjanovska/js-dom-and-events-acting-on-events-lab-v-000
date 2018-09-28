@@ -24,5 +24,5 @@ function addNewElementAsLi() {
  }
 
  function clearEmployeeListOnLinkClick() {
-    let link = document.querySelector('a[href='#']');
+    let link = document.querySelector('a');
  }
