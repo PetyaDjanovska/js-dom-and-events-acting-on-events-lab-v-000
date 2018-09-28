@@ -24,8 +24,8 @@ function addNewElementAsLi() {
  }
 
  function clearEmployeeListOnLinkClick() {
-    let link = document.querySelector('a[href$='#']');
-    link.addEventListener('click', function(event) {
-      document.querySelector('.employee-list').value = '';
-    });
+    // let link = document.querySelector('a[href$='#']');
+    // link.addEventListener('click', function(event) {
+    //   document.querySelector('.employee-list').value = '';
+    // });
  }
