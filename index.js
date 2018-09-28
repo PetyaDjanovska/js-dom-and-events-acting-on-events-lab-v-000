@@ -27,5 +27,5 @@ function addNewElementAsLi() {
     let link = document.querySelector('a');
     link.addEventListener('click', function(event) {
       document.querySelector('.employee-list').value = '';
-    })
+    });
  }
