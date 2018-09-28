@@ -23,6 +23,6 @@ function addNewElementAsLi() {
   document.querySelector('input').value = '';
  }
 
- function clearEmployeeListOnLinkClick() {
-   let link = document.querySelector('a[href='#']');
- }
+ // function clearEmployeeListOnLinkClick() {
+ //   let link = document.querySelector('a[href='#']');
+ // }
